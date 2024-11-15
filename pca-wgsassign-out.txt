@@ -1,0 +1,151 @@
+	This module sets up the path to the pcangsd command.
+	To finish loading PCAngsd you need to type
+
+	source /opt/bioinformatics/venv/pcangsd-0.99/bin/activate
+PCAngsd 0.99
+Using 10 thread(s)
+
+Parsing Beagle file
+Read 166 samples and 51 sites
+
+Estimating population allele frequencies
+EM (MAF) converged at iteration: 8
+
+Number of sites after MAF filtering (0.05): 51
+
+Estimating covariance matrix
+Using 15 principal components (MAP test)
+Individual allele frequencies estimated (1)
+Individual allele frequencies estimated (2). RMSE=0.04993153994539087
+Individual allele frequencies estimated (3). RMSE=0.0295558864428216
+Individual allele frequencies estimated (4). RMSE=0.029417576105062793
+Individual allele frequencies estimated (5). RMSE=0.022424743868388136
+Individual allele frequencies estimated (6). RMSE=0.012120254353613929
+Individual allele frequencies estimated (7). RMSE=0.013614999238212232
+Individual allele frequencies estimated (8). RMSE=0.022083923296280103
+Individual allele frequencies estimated (9). RMSE=0.016236184213554165
+Individual allele frequencies estimated (10). RMSE=0.008227171397979158
+Individual allele frequencies estimated (11). RMSE=0.007483682584800308
+Individual allele frequencies estimated (12). RMSE=0.010278371025875505
+Individual allele frequencies estimated (13). RMSE=0.010419761263544432
+Individual allele frequencies estimated (14). RMSE=0.005808823606956678
+Individual allele frequencies estimated (15). RMSE=0.005620954155638322
+Individual allele frequencies estimated (16). RMSE=0.015081627442376566
+Individual allele frequencies estimated (17). RMSE=0.012164839906578897
+Individual allele frequencies estimated (18). RMSE=0.003858963549458315
+Individual allele frequencies estimated (19). RMSE=0.0026482252207316254
+Individual allele frequencies estimated (20). RMSE=0.0020218106934503577
+Individual allele frequencies estimated (21). RMSE=0.001740577314642992
+Individual allele frequencies estimated (22). RMSE=0.0015796911222218074
+Individual allele frequencies estimated (23). RMSE=0.0014311724566225766
+Individual allele frequencies estimated (24). RMSE=0.0012914756572548602
+Individual allele frequencies estimated (25). RMSE=0.0011963581551364946
+Individual allele frequencies estimated (26). RMSE=0.0011063152847217734
+Individual allele frequencies estimated (27). RMSE=0.0010330431347814737
+Individual allele frequencies estimated (28). RMSE=0.0009928929632566307
+Individual allele frequencies estimated (29). RMSE=0.0009966409364313177
+Individual allele frequencies estimated (30). RMSE=0.0010442256372243518
+Individual allele frequencies estimated (31). RMSE=0.0010759313527847181
+Individual allele frequencies estimated (32). RMSE=0.0011910183355013982
+Individual allele frequencies estimated (33). RMSE=0.0013353546010608233
+Individual allele frequencies estimated (34). RMSE=0.0015256141641548319
+Individual allele frequencies estimated (35). RMSE=0.0017583458625441846
+Individual allele frequencies estimated (36). RMSE=0.00203178897477621
+Individual allele frequencies estimated (37). RMSE=0.0023387098586106023
+Individual allele frequencies estimated (38). RMSE=0.0026331263923337163
+Individual allele frequencies estimated (39). RMSE=0.0027161923656989686
+Individual allele frequencies estimated (40). RMSE=0.0024997481166503786
+Individual allele frequencies estimated (41). RMSE=0.0021863440776111417
+Individual allele frequencies estimated (42). RMSE=0.0017313996611487033
+Individual allele frequencies estimated (43). RMSE=0.001488385836240965
+Individual allele frequencies estimated (44). RMSE=0.0013279336132540976
+Individual allele frequencies estimated (45). RMSE=0.0012350158801634119
+Individual allele frequencies estimated (46). RMSE=0.0012469717915618882
+Individual allele frequencies estimated (47). RMSE=0.0016003952922862027
+Individual allele frequencies estimated (48). RMSE=0.0024044217598169415
+Individual allele frequencies estimated (49). RMSE=0.0016801487693588952
+Individual allele frequencies estimated (50). RMSE=0.0016641180967290688
+Individual allele frequencies estimated (51). RMSE=0.0017636091590724156
+Individual allele frequencies estimated (52). RMSE=0.0018314649201835811
+Individual allele frequencies estimated (53). RMSE=0.0018568009551367403
+Individual allele frequencies estimated (54). RMSE=0.0018210716974166822
+Individual allele frequencies estimated (55). RMSE=0.0017899145850899234
+Individual allele frequencies estimated (56). RMSE=0.001661970614427585
+Individual allele frequencies estimated (57). RMSE=0.001572515110110209
+Individual allele frequencies estimated (58). RMSE=0.001446040975519848
+Individual allele frequencies estimated (59). RMSE=0.0013297187044439911
+Individual allele frequencies estimated (60). RMSE=0.00124207389256631
+Individual allele frequencies estimated (61). RMSE=0.0011767969616355786
+Individual allele frequencies estimated (62). RMSE=0.001132812303057373
+Individual allele frequencies estimated (63). RMSE=0.0010900335256449724
+Individual allele frequencies estimated (64). RMSE=0.001087883206707827
+Individual allele frequencies estimated (65). RMSE=0.0010665925275567163
+Individual allele frequencies estimated (66). RMSE=0.0012381073828494284
+Individual allele frequencies estimated (67). RMSE=0.001206120263043057
+Individual allele frequencies estimated (68). RMSE=0.0011431954822348535
+Individual allele frequencies estimated (69). RMSE=0.0011129999306935404
+Individual allele frequencies estimated (70). RMSE=0.0010362372526070435
+Individual allele frequencies estimated (71). RMSE=0.0009475970646137052
+Individual allele frequencies estimated (72). RMSE=0.000868489639386989
+Individual allele frequencies estimated (73). RMSE=0.0007940712872851031
+Individual allele frequencies estimated (74). RMSE=0.0007227852596349446
+Individual allele frequencies estimated (75). RMSE=0.0006672152562158845
+Individual allele frequencies estimated (76). RMSE=0.0006165987543119578
+Individual allele frequencies estimated (77). RMSE=0.0005816053256920087
+Individual allele frequencies estimated (78). RMSE=0.0005487619118472851
+Individual allele frequencies estimated (79). RMSE=0.0005197155626539035
+Individual allele frequencies estimated (80). RMSE=0.0004918057511074011
+Individual allele frequencies estimated (81). RMSE=0.0004568600956885161
+Individual allele frequencies estimated (82). RMSE=0.0004189244094680124
+Individual allele frequencies estimated (83). RMSE=0.00038780506044693003
+Individual allele frequencies estimated (84). RMSE=0.00036147838197415937
+Individual allele frequencies estimated (85). RMSE=0.00033654320555361994
+Individual allele frequencies estimated (86). RMSE=0.00031985141980166653
+Individual allele frequencies estimated (87). RMSE=0.0003057034548039207
+Individual allele frequencies estimated (88). RMSE=0.00029109129101499844
+Individual allele frequencies estimated (89). RMSE=0.00027838855827266537
+Individual allele frequencies estimated (90). RMSE=0.0002683279962783441
+Individual allele frequencies estimated (91). RMSE=0.00025365245231098423
+Individual allele frequencies estimated (92). RMSE=0.00024698651619076215
+Individual allele frequencies estimated (93). RMSE=0.00023772805770604728
+Individual allele frequencies estimated (94). RMSE=0.0002062349477743692
+Individual allele frequencies estimated (95). RMSE=0.00019502340105489644
+Individual allele frequencies estimated (96). RMSE=0.00019199414772668694
+Individual allele frequencies estimated (97). RMSE=0.00015082126513913234
+Individual allele frequencies estimated (98). RMSE=0.00014421927335730238
+Individual allele frequencies estimated (99). RMSE=0.0001416354297587867
+Individual allele frequencies estimated (100). RMSE=0.00015394340516466132
+Saved covariance matrix as /home/lspencer/pcod-sex/pcod-sex.cov (Text)
+
+Performing pcadapt seletion scan
+Saved z-scores as /home/lspencer/pcod-sex/pcod-sex.pcadapt.zscores.npy (Binary)
+
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.1.3 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/lspencer/.conda/envs/WGSassign/bin/WGSassign", line 33, in <module>
+    sys.exit(load_entry_point('WGSassign', 'console_scripts', 'WGSassign')())
+  File "/home/lspencer/programs/WGSassign/WGSassign/WGSassign.py", line 135, in main
+    from WGSassign import emMAF
+  File "/home/lspencer/programs/WGSassign/WGSassign/emMAF.py", line 11, in <module>
+    from WGSassign import emMAF_cy
+WGSassign
+Matt DeSaix.
+Using 10 thread(s).
+
+Traceback (most recent call last):
+  File "/home/lspencer/.conda/envs/WGSassign/bin/WGSassign", line 33, in <module>
+    sys.exit(load_entry_point('WGSassign', 'console_scripts', 'WGSassign')())
+  File "/home/lspencer/programs/WGSassign/WGSassign/WGSassign.py", line 135, in main
+    from WGSassign import emMAF
+  File "/home/lspencer/programs/WGSassign/WGSassign/emMAF.py", line 11, in <module>
+    from WGSassign import emMAF_cy
+  File "WGSassign/emMAF_cy.pyx", line 1, in init WGSassign.emMAF_cy
+ImportError: numpy.core.multiarray failed to import (auto-generated because you didn't call 'numpy.import_array()' after cimporting numpy; use '<void>numpy._import_array' to disable if you are certain you don't need it).

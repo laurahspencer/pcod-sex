@@ -1,0 +1,8 @@
+"0",""
+"0","# require(clipr)"
+"0","# (result %>% select(Chromosome, Position, spid) %>% distinct() %>% filter(!is.na(spid)))$spid %>% write_clip() #sex-associated genes"
+"0","# (pcod.blast.GO %>% filter(!is.na(spid)))$spid %>% write_clip()"
+"0",""
+"0","# result %>% arrange(desc(LRT)) %>% select(Chromosome, Position, Major, Minor, LRT, SE, pvalue, gene_id, protein_names) %>% "
+"0","#   mutate(across(c(LRT:pvalue), ~ signif(.x, 3))) %>% write_clip()"
+"0",""

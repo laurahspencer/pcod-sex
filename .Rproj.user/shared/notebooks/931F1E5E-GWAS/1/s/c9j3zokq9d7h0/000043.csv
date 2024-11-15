@@ -1,0 +1,18 @@
+"0","# Read in covariance matrix and add sample IDs "
+"0","sex.cov <- read_delim(file=""pcod-sex.cov"", col_names = ref.sex$sample) %>% "
+"0","  as.matrix() %>%"
+"0","  `rownames<-`(ref.sex$sample)"
+"2","[1mRows: [22m[34m166[39m [1mColumns: [22m[34m166[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "" ""
+[32mdbl[39m (166): ABLG1968, ABLG1969, ABLG1970, ABLG1971, ABLG1974, ABLG1975, ABLG2086, ABLG2087, ABLG2088, ABLG2090, ABLG2091, ABLG2092, ABLG2093, ABLG2094, ABLG2095, ABLG2096, ABLG2097, ABLG2098, ABLG2099, ABLG2100, AB..."
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","# Run PCA"
+"0","pca.sex <- prcomp(sex.cov, scale=F) #scale=F for variance-covariance matrix"
+"0","#pca.eigenval(pca.princomp) #The Proporation of Variance = %variance "
+"0","pc.percent <- pca.eigenval(pca.sex)[2,1:6]*100 #PC % for axes 1-6"
+"1","Importance of components:
+"
+"0","screeplot(pca.sex, bstick=FALSE)  #inspect scree plot, which axes influential? "

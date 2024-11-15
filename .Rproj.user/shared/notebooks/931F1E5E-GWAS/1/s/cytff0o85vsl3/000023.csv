@@ -1,0 +1,7 @@
+"0",""
+"0","ref.sex %>% select(sample) %>%  write_delim(file=""fish-ids.txt"",  col_names = F)"
+"0","ref.sex %>% select(sex) %>% mutate(sex=as.numeric(sex==""female"")) %>% write_delim(file=""fish-sex.txt"",  col_names = F)"
+"0","ref.sex %>% select(marine_region) %>% mutate(marine_region=as.numeric(as.factor(marine_region))) %>% write_delim(file=""fish-region.txt"",  col_names = F)"
+"0",""
+"0","# Load beagle that contains sexed fish, NOT Imputed probabilities  "
+"0","sex.beagle<-read.table(gzfile(""pcod-sex.beagle.gz""), header = T, sep=""\t"")"
